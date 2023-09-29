@@ -9,7 +9,7 @@
 1. 填写配置文件模板`config/settings.yml.template`并重命名为`config/settings.yml`
 2. 进入子模块学习几个不同的`RabbitMQ`模式
 
-- [ ] Simple
+- [X] Simple
 - [ ] Work queue
 - [ ] Publish/Subscribe
 - [ ] Routing

@@ -2,7 +2,7 @@
 
 > 不考虑交换机，只有一个生产者P、一个队列和一个消费者C的情况示例
 
-![img.png](../static/img/img.png)
+![img.png](../static/img/simple.png)
 
 ## 使用方法
 

@@ -5,10 +5,11 @@ import (
 	"fmt"
 	amqp "github.com/rabbitmq/amqp091-go"
 	"log"
+	"rabbitmq/config"
 )
 
 func main() {
-	connection, err := amqp.Dial("amqp://root:123456@101.201.56.110:9983")
+	connection, err := amqp.Dial(config.URL)
 	if err != nil {
 		log.Fatalf("连接失败 %v", err)
 	}
