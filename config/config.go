@@ -10,7 +10,7 @@ import (
 var URL string
 
 func init() {
-	viper.SetConfigFile("../config/settings.yml")
+	viper.SetConfigFile("../../config/settings.yml")
 	if err := viper.ReadInConfig(); err != nil {
 		slog.Errorf("加载配置信息失败 %v", err)
 	} else {
