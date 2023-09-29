@@ -9,7 +9,7 @@
 进入文件夹
 
 ```shell
-cd simple
+cd example/simple
 ```
 
 发送一条消息
